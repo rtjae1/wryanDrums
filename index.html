@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="yo-globe">
+      <div id="myNav" class="overlay">
+        <div class="exit">
+          <div>E</div>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div>I</div>
+          <div>T</div>
+          <div class="overlay-content">
+            <a href="about.html">ABOUT</a>
+            <!-- <a href="#">Portfolio</a> -->
+            <a href="./assets/docs/resumeRyanJae.pdf" target="_blank">RESUME</a>
+            <a href="contact.html">CONTACT</a>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div>M</div>
+        <span
+          style="font-size:30px;cursor:pointer"
+          class="openbtn"
+          onclick="openNav()"
+          >&#9776;</span
+        >
+        <div>N</div>
+        <div>U</div>
+      </div>
+      <div class="content">
+        <div class="keys">
+          <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">clap</span>
+          </div>
+          <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">hihat</span>
+          </div>
+          <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">kick</span>
+          </div>
+          <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">openhat</span>
+          </div>
+          <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">boom</span>
+          </div>
+          <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">ride</span>
+          </div>
+          <div data-key="74" class="key">
+            <kbd>J</kbd>
+            <span class="sound">snare</span>
+          </div>
+          <div data-key="75" class="key">
+            <kbd>K</kbd>
+            <span class="sound">tom</span>
+          </div>
+          <div data-key="76" class="key">
+            <kbd>L</kbd>
+            <span class="sound">tink</span>
+          </div>
+        </div>
+        <audio data-key="65" src="./assets/sounds/clap.wav"></audio>
+        <audio data-key="83" src="./assets/sounds/hihat.wav"></audio>
+        <audio data-key="70" src="./assets/sounds/openhat.wav"></audio>
+        <audio data-key="68" src="./assets/sounds/kick.wav"></audio>
+        <audio data-key="71" src="./assets/sounds/boom.wav"></audio>
+        <audio data-key="72" src="./assets/sounds/ride.wav"></audio>
+        <audio data-key="74" src="./assets/sounds/snare.wav"></audio>
+        <audio data-key="75" src="./assets/sounds/tom.wav"></audio>
+        <audio data-key="76" src="./assets/sounds/tink.wav"></audio>
+      </div>
+      <div class="links">
+        <!-- --------------------- -->
+        <a
+          class="social-link"
+          href="https://twitter.com/lifeswryan"
+          target="_blank"
+          ><img src="./assets/img/twitterLogo.png" alt="twitter"
+        /></a>
+
+        <!-- --------------------- -->
+        <a
+          class="social-link"
+          href="https://www.facebook.com/lifeswryan"
+          target="_blank"
+          ><img src="./assets/img/facebookLogo.png" alt="facebook"
+        /></a>
+
+        <!-- --------------------- -->
+        <a
+          class="social-link"
+          href="https://www.linkedin.com/in/ryanjae/"
+          target="_blank"
+        >
+          <img src="./assets/img/linkedinLogo.png" alt="linkedin" />
+        </a>
+        <!-- --------------------- -->
+        <a
+          class="social-link"
+          href="https://www.instagram.com/lifeswryan/"
+          target="_blank"
+          ><img src="./assets/img/instagramLogo.png" alt="instagram"
+        /></a>
+
+        <!-- --------------------- -->
+        <a
+          class="social-link"
+          href="https://untappd.com/user/lifeswryan"
+          target="_blank"
+          ><img src="./assets/img/untappdLogo.png" alt="untappd"
+        /></a>
+        <!-- --------------------- -->
+        <a class="social-link" href="https://github.com/rtjae1" target="_blank"
+          ><img src="./assets/img/githubLogo.png" alt="github"
+        /></a>
+
+        <!-- --------------------- -->
+        <a
+          class="social-link"
+          href="https://dribbble.com/lifeswryan"
+          target="_blank"
+          ><img src="./assets/img/dribbbleLogo.png" alt="dribble" />
+        </a>
+        <!-- --------------------- -->
+      </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
