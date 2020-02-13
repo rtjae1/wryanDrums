@@ -16,4 +16,11 @@ const keys = document.querySelectorAll(".key");
 keys.forEach(key =>
     key.addEventListener("transitionend", removeTransition)
 );
-window.addEventListener("keydown", playSound);
+window.addEventListener("keydown", playSound); 
+
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
